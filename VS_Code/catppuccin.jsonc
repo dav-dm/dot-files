@@ -1,0 +1,133 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "",
+    "editor.rulers": [100],
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "string.quoted.docstring.multi.python",
+                    "variable.parameter.function.language.python",
+                    "variable.parameter.function-call.python",
+                    "storage.type.function.lambda.python",
+                    "variable.language.special.self.python"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.flow.python",
+                    "keyword.control.import.python",
+                    "keyword.operator.logical.python",
+                    "storage.type.function.python",
+                    "storage.type.class.python"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            // {
+            //     "scope": "entity.name.namespace",
+            //     "settings": {
+            //         "foreground": "#986ee7"
+            //     }
+            // },
+            // {
+            //     "scope": "meta.function-call.generic.python",
+            //     "settings": {
+            //         "foreground": "#b392f0"
+            //     }
+            // },
+            {
+                "scope": "storage.type.string.python",
+                "settings": {
+                    "foreground": "#CBA6F7"
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.multi.python",
+                    "string.quoted.double.block.python",
+                    "string.quoted.triple",
+                    "string.quoted.docstring.multi.python",
+                    "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                    "string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+                    "string.quoted.docstring.multi.python constant.character.escape.python"
+                ],
+                "settings": {
+                    "foreground": "#9399B2" // 9399B2 a2a2a2
+                }
+            }
+        ]
+    },
+    "editor.fontFamily": "JetBrains Mono, JetBrainsMono Nerd Font, SF Mono, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "MesloLGS NF, JetBrains Mono, JetBrainsMono Nerd Font, SF Mono, monospace",
+    "workbench.tree.indent": 16,
+    "jupyter.askForKernelRestart": false,
+    "files.autoSave": "afterDelay",
+    "git.ignoreMissingGitWarning": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnType": true,
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "editor.fontSize": 12,
+    "remote.SSH.remotePlatform": {
+        "192.168.100.13": "linux",
+        "143.225.229.54": "linux",
+        "192.168.100.16": "linux",
+        "192.168.100.12": "linux",
+        "192.168.100.14": "linux",
+        "192.168.100.15": "linux",
+        "143.225.229.55": "linux",
+        "143.225.229.145": "linux",
+        "143.225.170.57": "linux",
+        "143.225.229.154": "linux",
+        "192.168.121.141": "linux",
+        "csrtx01.ucd.ie": "linux"
+    },
+    "notebook.lineNumbers": "on",
+    "terminal.integrated.minimumContrastRatio": 1,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.profiles.windows": {
+        "Ubuntu (WSL)": {
+            "path": "wsl.exe",
+            "args": ["-d", "Ubuntu"]
+        }
+    },
+    "window.titleBarStyle": "custom",
+    "remote.SSH.connectTimeout": 5000,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "catppuccin.accentColor": "blue",
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "editor.largeFileOptimizations": false,
+    "workbench.iconTheme": "catppuccin-mocha",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.selectedCompletionModel": "",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "git.autofetch": true,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "α": true
+    },
+    "workbench.startupEditor": "none",
+    "terminal.integrated.stickyScroll.enabled": false
+}
